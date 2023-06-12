@@ -1,6 +1,12 @@
 # Used Car Sales Predictor
 ## Overview
-This project aims to build a predictive model for estimating the price of used cars. The
+This project aims to build a predictive model for estimating the price of used cars. The goal is to create the most accurate model by using the data of 1.2 million cars sold on TrueCar.com.
+* A tool to predict the price of used car described as a dollar amount.
+* Price will be established based on Production Year, Mileage, Make, Model and State.
+* Dataset of 1.2 million cars and their features.
+* Efficient and robust regression models used to determine price.
+* Put into local production using Flask framework.
+
 ## Motivation
 The motivation for this project stems from personal experience of being in the market for a used car. Recognizing the importance of accurate car valuation for negotiation purposes, I made the decision to develop a predictive model that could help me in assessing the value of a used car.
 ## Data Collection and Cleaning
