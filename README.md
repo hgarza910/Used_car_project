@@ -6,11 +6,19 @@ The motivation for this project stems from personal experience of being in the m
 ## Data Collection and Cleaning
 The dataset used in this project was obtained from Kaggle and originally sourced by scaping TrueCar.com for used car listings. Each row in the dataset represents a single used car listing that includes various attributes such as Year, Make, Model, Price, VIN, City, and State. The dataset comprises a collection of 1.2 mission used cars. The dataset obtained from Kaggle was preprocessed so did not need to be cleaned.
 
+![](Images/df_statistics.png)
+
 ## Exploratory Data Analysis (EDA)
 Exploratory data analysis was conducted to gain insights into the dataset. The analysis focused on key attributes including Price, production Year, and Mileage examining distributions, spreads, and outliers. Additionally, a correlation heat map was used to identify the most influential features for training the predictive model. Categorical variables such as State , Make and Model were encoded for integration into the modeling phase.
 
+![](Images/production_year_distribution.png)
+
+![](Images/heatmap_correlations.png)
+
 ## Exploratory Data Analysis (EDA) with Tableau
 Along with the EDA conduction in jupyter, Tableau was also utilized to explore the data further taking a look at average car prices in relation to the production years. An interactive map was additionally created to visualize the average car prices across the United States. Key performance indicators (KPIs) were developed to display the number of cars sold, average mileage, and average price for each state. These tools were then integrated into a dashboard, which linked one to the other to provide targeted statistics based on user interaction. This analysis provided insights into the average car prices, sales metrics and geographic variations in the used car market.
+
+![](Images/tableau_dashboard.png)
 
 ## Model Exploration and Building
 Given the objective of predicting a continuous variable (Price) based on multiple independent variables (Year, Milage, State, Make, Model), a multiple regression model was considered the most appropriate approach.
