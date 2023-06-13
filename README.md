@@ -49,7 +49,6 @@ Here is how the other models performed:
 
 ## Putting the Model Into Production
 To enable the utilization of the model in a production environment, the Random Forest model was serialized using the Pickle library. The Flask framework was employed to create a production ready interface for utilizing the model locally. It is important to note the the current implementation of the model is intended for personal use only.
-* insert pics
 
 ## Conclusion, Thoughts and Considerations
 This project successfully developed a predictive model for estimating the price of used cars with a 90% accuracy. The model demonstrated high accuracy, with the Random Forest Regression approach outperforming the other tested models. Future considerations could be to look at replacing the Random Forest model with the XGBoost model. The reasons being, the XGBoost model offers similar predictive accuracy with significantly less training time but most importantly a much smaller model size.
